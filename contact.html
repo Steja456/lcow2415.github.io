@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<!-- 
+    TERM PROJECT
+	Student Name: Laura Chipman
+	Student Number: c0590808
+    Page: Contact
+ -->
+<html lang="en">
+<head>
+	<title>bright Contact</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/brightstyle.css">
+	<meta name="viewport" content="width=device-width, initial scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=GFS+Didot&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+<!-- Use the header area for the website name or logo -->
+<header>
+	<a href="index.html"><img class = 'logo' src= "images/brightlogo.jpg" alt="Bright logo"></a>
+</header>
+
+
+	<!-- Use the nav area to add hyperlinks and other pages within the website --> 
+	<nav class="nav">
+		<ul class="row">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="media.html">Media</a></li>
+			<li><a href="faqs.html">FAQ</a></li>
+			<li><a href="team.html">Our Team</a></li>
+			<li><a href="training.html">Training</a></li>
+			<li><a href="specials.html">Specials</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+			<li><a href="database/DatabaseTermProject_0590808.pdf" target="_blank">Reports</a></li>
+		</ul>
+	</nav>
+
+	<img class= 'hero' src= "images/bulbbanner1.jpg" alt="Bright banner">
+
+	<!-- Use the main are to add the main content of the webpage -->
+	<main>
+		
+		<div id="contact">
+			<section>
+		<h1>Contact us today!</h1>
+         <h2>Ready for your free consultation? Contact us today.</h2>
+         <h3>Call us: (814)555-9608</h3>
+         <h3>Email us:<a href="mailto:contact@bright.net">contact@bright.net</a></h3> 
+		</section> 
+         <h3>Visit us at: 1275 Channel Center Street, Boston, MA 02210</h3> 
+         <iframe class='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11795.40482303699!2d-71.06171806785703!3d42.34569560032877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37a7dc2b67e7b%3A0x36ec93427cd9c5f1!2sChannel%20Center%20St%2C%20Boston%2C%20MA%2002210%2C%20USA!5e0!3m2!1sen!2sca!4v1695255202017!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+	
+		
+		 <form class='form-grid'>
+			<h2>Contact Us!</h2>
+				 
+				<fieldset id="contact">
+					<legend>Contact Information </legend>
+						<label for='fName'> <span class='asterik'>*</span> First Name:<input type='text' name='fName' id='fName' size="50" placeholder='first name' autofocus required></label> 
+							 	 
+						<label for='lName'> <span class='asterik'>*</span>Last Name: <input type='text' name='lName' id='lName' size="50" placeholder='last name' required></label>
+							 
+		 				<label for='email'> <span class='asterik'>*</span>Email: 
+						<input type='email' name='email' id='email' placeholder='example@email.com' size="75" required> </label>
+		 
+						<label for='phone'><span class='asterik'>*</span>Phone:
+						<input type='tel' id='phone' name='phone' placeholder='555-555-5555' size="50" required></label> 
+							 
+						<label for='address'><span class='asterik'>*</span>Address:
+						<input type='text' name='address' id='address' size="50" required></label> 
+
+						<label for='city'><span class='asterik'>*</span>City:
+						<input type='text' name='city' id='city' size="50" required></label>
+
+					<label for='state'><span class='asterik'>*</span>State:
+         			<input type='text' name='state' id='state'size="50" required></label>
+
+		            <label for='zip'><span class='asterik'>*</span>Zip:
+					<input type='text' name='zip' id='zip' size="50"required></label>
+				</fieldset>
+
+				<fieldset id="reason">
+					<legend><span class='asterik'>*</span>Reason for Contact</legend>
+
+					<label for='free_consultation'><input type='checkbox' name='setting' id='free_consultation' value='free_consultation'>Free Consultation</label>
+
+					<label for='signup'><input type='checkbox' name='reason' id='signup' value='signup'>Free Letter Sign Up</label>
+
+					<label for='job_inquiry'><input type='checkbox' name='reason' id='job_inquiry' value='job_inquiry'>Job Inquiry</label>
+
+					<label for='other'><input type='checkbox' name='reason' id='other' value='other'>Other</label>
+
+				</fieldset>
+					
+				<fieldset>
+					<legend><span class='asterik'>*</span>Preferred Contact</legend>
+					<label for ='emailcontact'><input type='radio' name='preferredcontact' id='emailcontact' value='emailcontact'>Email</label>
+
+					<label for ='phonecontact'><input type='radio' name='preferredcontact' id='phonecontact' value='phonecontact'>Phone</label>
+
+					<label for ='textcontact'><input type='radio' name='preferredcontact' id='textcontact' value='textcontact'>Text</label>
+
+					<label for ='anycontact'><input type='radio' name='preferredcontact' id='anycontact' value='anycontact'>Any</label>
+				</fieldset>
+
+				<fieldset>
+				   <legend>Best Date for In Person consultation</legend>                            
+					<label for="best-date">Best Date:</label>
+					<input type="date" id="best-date" name="best-date">
+				</fieldset>
+
+
+				<fieldset id="general-info">
+					<legend>General Information</legend>
+					<textarea id="general-info" name="general-info" rows="3" cols="50"></textarea>
+				</fieldset>
+
+					 
+				<fieldset id="how-heard">
+					<legend>How did you hear about us?</legend>
+					<select id="how-heard" name="how-heard">
+					  <option value="--" selected>--</option>
+					  <option value="web-search">Web Search</option>
+					  <option value="friend-word-of-mouth">Friend/Word of Mouth</option>
+					  <option value="advertisement">Advertisement</option>
+					  <option value="other">Other</option>
+					  </select>
+				</fieldset>
+
+			<input type='submit' id='submit' value ='Submit' class='btn'>
+
+			<input type='reset' id="reset" value='Reset Form' class='btn'>
+		</form>
+
+		</div>
+	</main>
+
+		
+	<!-- Use the footer are to add webpage footer content -->
+	<footer>
+		<p>&copy; Copyright 2023.&#169; All Rights Reserved.</p>
+		<p>Laura Chipman. Student Number: c0590808</p>
+		<p>Request Information:<a href="mailto:contact@bright.net">contact@bright.net</a></p>
+	</footer>
+	
+</body>
+</html>
