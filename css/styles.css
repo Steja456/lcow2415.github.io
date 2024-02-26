@@ -12,7 +12,8 @@ img {
 }
 
 body {
-    background-color: #F96167;
+    background-color: #D2691E;
+    font-display: #0e0e0eeb;
 }
 
 img {
@@ -20,10 +21,11 @@ img {
     display: block;
 }
 #bannertitle{
-    background-color: #F9E795;
+    background-color: #FFDB58;
     font-size: 80px;
     text-align: center;
 }
+
 header {
     float: left;
     width: 25%;
@@ -51,7 +53,7 @@ nav li a {
     text-align: center;
     padding: 0.5em 1em;
     text-decoration: solid;
-    color: rgb(244, 245, 248);
+    color: rgb(3, 42, 160);
 }
 
 #Bannerimage {
@@ -59,11 +61,23 @@ nav li a {
     width:200px;
     height:200px;
 }
+
+#banner {
+    margin: 0 auto 0 auto;
+    width:250px;
+    height:250px;
+}
+
+#metaledgedscale {
+    margin: 0 auto 0 auto;
+    width: 500px;
+    height: 150px;
+}
 main {
     clear: left;
     padding: 2%;
     font-size: 1.25em;
-    background-color: #F9E795;
+    background-color: #FFFACD;
     text-align: center;
 }
 
@@ -71,10 +85,10 @@ footer div {
     font-size: 0.75em;
     padding: 0 1em;
     text-align: center;
-    color: #fff;
+    color: #0a0a09;
 }
 
 footer div a {
-    color: #fff;
+    color: #0e0e0d;
     text-decoration: none;
 }
