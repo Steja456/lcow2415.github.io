@@ -19,7 +19,11 @@ img {
     max-width: 100%;
     display: block;
 }
-
+#bannertitle{
+    background-color: #F9E795;
+    font-size: 80px;
+    text-align: center;
+}
 header {
     float: left;
     width: 25%;
@@ -50,11 +54,17 @@ nav li a {
     color: rgb(244, 245, 248);
 }
 
+#Bannerimage {
+    margin: 0 auto 0 auto;
+    width:200px;
+    height:200px;
+}
 main {
     clear: left;
     padding: 2%;
     font-size: 1.25em;
     background-color: #F9E795;
+    text-align: center;
 }
 
 footer div {
@@ -66,50 +76,5 @@ footer div {
 
 footer div a {
     color: #fff;
-    text-decoration: none;
-}
-
-.map {
-    border: 8px solid #000;
-}
-
-.action {
-    font-size: 1.35em;
-    color: #666666;
-    font-weight: bold;
-}
-
-#bckimg img {
-    height: 30%;
-}
-
-#about {
-    margin: 0 2%;
-    padding-bottom: 1%;
-    text-align: left;
-}
-
-#excercise {
-    clear: left;
-    background-color: #f2f2f2;
-    padding: 1% 2%;
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
-}
-
-#excersize dt {
-    font-weight: bold;
-}
-
-#excersize dd {
-    padding: 0.5% 1% 2% 0;
-}
-
-#contact {
-    text-align: center;
-}
-
-#contact a {
-    color: #666600;
     text-decoration: none;
 }
