@@ -134,3 +134,18 @@ tr:nth-child(odd) {
     background-color: #d3e788; /* Step 11f */
 }
 
+video {
+    max-width: 100%; 
+    display: block; 
+}
+video {
+    margin: 0 auto 4%; 
+}
+.audio {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+}
